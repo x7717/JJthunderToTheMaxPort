@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:add",
+  "left": {
+    "type": "minecraft:add",
+    "left": "minecraft:baseline/overworld/horizontal",
+    "right": "minecraft:offset/plains"
+  },
+  "right": {
+    "type": "minecraft:add",
+    "left": "minecraft:factor/plains",
+    "right": "minecraft:jagged/plains"
+  }
+}

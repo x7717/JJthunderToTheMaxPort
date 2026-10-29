@@ -1,0 +1,190 @@
+{
+  "type": "minecraft:spline",
+  "spline": {
+    "coordinate": "minecraft:determiner/overworld/1",
+    "points": [
+      {
+        "location": -0.4,
+        "derivative": 0,
+        "value": {
+          "coordinate": "minecraft:slopes/ocean",
+          "points": [
+            {
+              "location": 0,
+              "derivative": 1,
+              "value": 0
+            }
+          ]
+        }
+      },
+      {
+        "location": -0.3,
+        "derivative": 0,
+        "value": {
+          "coordinate": "minecraft:slopes/plains",
+          "points": [
+            {
+              "location": 0,
+              "derivative": 1,
+              "value": 0
+            }
+          ]
+        }
+      },
+      {
+        "location": -0.28,
+        "derivative": 0,
+        "value": {
+          "coordinate": "minecraft:slopes/plains",
+          "points": [
+            {
+              "location": 0,
+              "derivative": 1,
+              "value": 0
+            }
+          ]
+        }
+      },
+      {
+        "location": -0.2,
+        "derivative": 0,
+        "value": {
+          "coordinate": "minecraft:slopes/hills",
+          "points": [
+            {
+              "location": 0,
+              "derivative": 1,
+              "value": 0
+            }
+          ]
+        }
+      },
+      {
+        "location": -0.125,
+        "derivative": 0,
+        "value": {
+          "coordinate": "minecraft:slopes/extreme_hills",
+          "points": [
+            {
+              "location": 0,
+              "derivative": 1,
+              "value": 0
+            }
+          ]
+        }
+      },
+      {
+        "location": -0.075,
+        "derivative": 0,
+        "value": {
+          "coordinate": "minecraft:slopes/mountains",
+          "points": [
+            {
+              "location": 0,
+              "derivative": 1,
+              "value": 0
+            }
+          ]
+        }
+      },
+      {
+        "location": 0,
+        "derivative": 0,
+        "value": {
+          "coordinate": "minecraft:slopes/extreme_mountains",
+          "points": [
+            {
+              "location": 0,
+              "derivative": 1,
+              "value": 0
+            }
+          ]
+        }
+      },
+      {
+        "location": 0.075,
+        "derivative": 0,
+        "value": {
+          "coordinate": "minecraft:slopes/mountains",
+          "points": [
+            {
+              "location": 0,
+              "derivative": 1,
+              "value": 0
+            }
+          ]
+        }
+      },
+      {
+        "location": 0.125,
+        "derivative": 0,
+        "value": {
+          "coordinate": "minecraft:slopes/extreme_hills",
+          "points": [
+            {
+              "location": 0,
+              "derivative": 1,
+              "value": 0
+            }
+          ]
+        }
+      },
+      {
+        "location": 0.2,
+        "derivative": 0,
+        "value": {
+          "coordinate": "minecraft:slopes/hills",
+          "points": [
+            {
+              "location": 0,
+              "derivative": 1,
+              "value": 0
+            }
+          ]
+        }
+      },
+      {
+        "location": 0.28,
+        "derivative": 0,
+        "value": {
+          "coordinate": "minecraft:slopes/plains",
+          "points": [
+            {
+              "location": 0,
+              "derivative": 1,
+              "value": 0
+            }
+          ]
+        }
+      },
+      {
+        "location": 0.3,
+        "derivative": 0,
+        "value": {
+          "coordinate": "minecraft:slopes/plains",
+          "points": [
+            {
+              "location": 0,
+              "derivative": 1,
+              "value": 0
+            }
+          ]
+        }
+      },
+      {
+        "location": 0.4,
+        "derivative": 0,
+        "value": {
+          "coordinate": "minecraft:slopes/ocean",
+          "points": [
+            {
+              "location": 0,
+              "derivative": 1,
+              "value": 0
+            }
+          ]
+        }
+      }
+    ]
+  }
+}

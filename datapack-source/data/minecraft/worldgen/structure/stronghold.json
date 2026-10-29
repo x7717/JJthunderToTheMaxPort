@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:stronghold",
+  "biomes": [
+    "minecraft:underground",
+    "minecraft:underground_deep"
+  ],
+  "spawn_overrides": {},
+  "step": "surface_structures",
+  "terrain_adaptation": "bury"
+}

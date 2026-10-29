@@ -1,0 +1,5 @@
+{
+  "type": "minecraft:min",
+  "left": "minecraft:new_combination/unfixed_c",
+  "right": "minecraft:new_combination/unfixed_old"
+}

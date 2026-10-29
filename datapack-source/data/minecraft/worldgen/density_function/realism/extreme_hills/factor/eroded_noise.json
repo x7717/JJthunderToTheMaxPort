@@ -1,0 +1,44 @@
+{
+  "type": "minecraft:spline",
+  "spline": {
+    "coordinate": "minecraft:realism/extreme_hills/factor/original",
+    "points": [
+      {
+        "location": -0.2,
+        "derivative": 0,
+        "value": {
+          "coordinate": "minecraft:realism/extreme_hills/factor/original",
+          "points": [
+            {
+              "location": 0,
+              "derivative": 1,
+              "value": 0
+            }
+          ]
+        }
+      },
+      {
+        "location": 0.2,
+        "derivative": 0,
+        "value": {
+          "coordinate": {
+            "type": "minecraft:mul",
+            "left": "minecraft:realism/extreme_hills/factor/original",
+            "right": {
+              "type": "minecraft:mul",
+              "left": "minecraft:realism/extreme_hills/factor/erosion_trick",
+              "right": 0.3
+            }
+          },
+          "points": [
+            {
+              "location": 0,
+              "derivative": 1,
+              "value": 0
+            }
+          ]
+        }
+      }
+    ]
+  }
+}

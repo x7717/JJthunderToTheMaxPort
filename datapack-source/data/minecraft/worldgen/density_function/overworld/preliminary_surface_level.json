@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:cache",
+  "input": {
+    "type": "minecraft:find_top_surface",
+    "density": {
+      "type": "minecraft:add",
+      "left": -0.15,
+      "right": "minecraft:new_surface/combined/processed"
+    },
+    "upper_bound": 2032,
+    "lower_bound": -64,
+    "cell_height": 64
+  }
+}

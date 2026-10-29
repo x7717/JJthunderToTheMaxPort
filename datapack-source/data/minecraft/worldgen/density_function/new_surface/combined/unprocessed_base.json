@@ -1,0 +1,5 @@
+{
+  "type": "minecraft:add",
+  "left": "minecraft:baseline/overworld/horizontal",
+  "right": "minecraft:new_surface/height/unprocessed/unrivered"
+}

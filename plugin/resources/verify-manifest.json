@@ -1,0 +1,87 @@
+{
+ "generated_from": "JJThunder To The Max v0.9.0 -> 26.3 port (v1.0.0)",
+ "expected_min_y": -64,
+ "expected_max_height": 2032,
+ "expected_sea_level": 63,
+ "biomes_must_exist": [
+  "minecraft:badlands",
+  "minecraft:bamboo_jungle",
+  "minecraft:birch_forest",
+  "minecraft:cherry_grove",
+  "minecraft:dark_forest",
+  "minecraft:deep_dark",
+  "minecraft:desert",
+  "minecraft:dripstone_caves",
+  "minecraft:eroded_badlands",
+  "minecraft:flower_forest",
+  "minecraft:forest",
+  "minecraft:frozen_river",
+  "minecraft:jungle",
+  "minecraft:lush_caves",
+  "minecraft:mangrove_swamp",
+  "minecraft:meadow",
+  "minecraft:molten_peaks",
+  "minecraft:molten_peaks_frozen",
+  "minecraft:molten_peaks_mild",
+  "minecraft:mushroom_fields",
+  "minecraft:old_growth_birch_forest",
+  "minecraft:old_growth_pine_taiga",
+  "minecraft:old_growth_spruce_taiga",
+  "minecraft:pale_garden",
+  "minecraft:plains",
+  "minecraft:river",
+  "minecraft:savanna",
+  "minecraft:savanna_plateau",
+  "minecraft:sparse_jungle",
+  "minecraft:stony_peaks",
+  "minecraft:stony_shore",
+  "minecraft:sulfur_caves",
+  "minecraft:sunflower_plains",
+  "minecraft:swamp",
+  "minecraft:taiga",
+  "minecraft:underground",
+  "minecraft:underground_deep",
+  "minecraft:windswept_forest",
+  "minecraft:windswept_gravelly_hills",
+  "minecraft:windswept_hills",
+  "minecraft:windswept_savanna",
+  "minecraft:wooded_badlands",
+  "minecraft:dappled_forest"
+ ],
+ "structure_probes": [
+  {
+   "type": "MINESHAFT",
+   "max_blocks": 3000
+  },
+  {
+   "type": "STRONGHOLD",
+   "max_blocks": 20000
+  }
+ ],
+ "biome_probes": [
+  {
+   "x": 1328,
+   "y": 290,
+   "z": 368,
+   "biome": "minecraft:sulfur_caves"
+  },
+  {
+   "x": 1328,
+   "y": 162,
+   "z": 368,
+   "biome": "minecraft:underground"
+  },
+  {
+   "x": 1808,
+   "y": 162,
+   "z": 3696,
+   "biome": "minecraft:deep_dark"
+  },
+  {
+   "x": -1328,
+   "y": 674,
+   "z": -2288,
+   "biome": "minecraft:dappled_forest"
+  }
+ ]
+}

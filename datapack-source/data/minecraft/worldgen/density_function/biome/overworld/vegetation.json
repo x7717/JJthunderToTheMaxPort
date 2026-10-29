@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:add",
+  "left": {
+    "type": "minecraft:noise",
+    "noise": "minecraft:vegetation_med",
+    "xz_scale": 0.15,
+    "y_scale": 0
+  },
+  "right": {
+    "type": "minecraft:mul",
+    "left": {
+      "type": "minecraft:noise",
+      "noise": "minecraft:cave_layer",
+      "xz_scale": 20,
+      "y_scale": 0
+    },
+    "right": 0.1
+  }
+}

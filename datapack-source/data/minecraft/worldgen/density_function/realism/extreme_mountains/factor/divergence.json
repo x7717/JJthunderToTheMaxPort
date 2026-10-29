@@ -1,0 +1,108 @@
+{
+  "type": "minecraft:spline",
+  "spline": {
+    "coordinate": "minecraft:realism/extreme_mountains/factor/divergence_squared",
+    "points": [
+      {
+        "location": 0,
+        "derivative": 0,
+        "value": 0
+      },
+      {
+        "location": 0.1,
+        "derivative": 0,
+        "value": 0.31622776
+      },
+      {
+        "location": 0.2,
+        "derivative": 0,
+        "value": 0.4472135955
+      },
+      {
+        "location": 0.3,
+        "derivative": 0,
+        "value": 0.5477225575
+      },
+      {
+        "location": 0.4,
+        "derivative": 0,
+        "value": 0.632455532
+      },
+      {
+        "location": 0.5,
+        "derivative": 0,
+        "value": 0.7071067812
+      },
+      {
+        "location": 0.6,
+        "derivative": 0,
+        "value": 0.7745966692
+      },
+      {
+        "location": 0.7,
+        "derivative": 0,
+        "value": 0.8366600265
+      },
+      {
+        "location": 0.8,
+        "derivative": 0,
+        "value": 0.894427191
+      },
+      {
+        "location": 0.9,
+        "derivative": 0,
+        "value": 0.9486832981
+      },
+      {
+        "location": 1,
+        "derivative": 0,
+        "value": 1
+      },
+      {
+        "location": 2,
+        "derivative": 0,
+        "value": 1.414213562
+      },
+      {
+        "location": 3,
+        "derivative": 0,
+        "value": 1.732050808
+      },
+      {
+        "location": 4,
+        "derivative": 0,
+        "value": 2
+      },
+      {
+        "location": 5,
+        "derivative": 0,
+        "value": 2.236067977
+      },
+      {
+        "location": 6,
+        "derivative": 0,
+        "value": 2.449489743
+      },
+      {
+        "location": 7,
+        "derivative": 0,
+        "value": 2.645751311
+      },
+      {
+        "location": 8,
+        "derivative": 0,
+        "value": 2.828427125
+      },
+      {
+        "location": 9,
+        "derivative": 0,
+        "value": 3
+      },
+      {
+        "location": 10,
+        "derivative": 0,
+        "value": 3.16227766
+      }
+    ]
+  }
+}

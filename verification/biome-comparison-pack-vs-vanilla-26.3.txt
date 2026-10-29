@@ -1,0 +1,267 @@
+PACK_MODIFIED  badlands.json  (5 real diffs)
+    - creature_spawn_probability: vanilla=null | pack=0.03
+    - spawners.axolotls: differs
+    - spawners.misc: differs
+    - spawners.water_ambient: differs
+    - spawners.water_creature: differs
+PACK_MODIFIED  bamboo_jungle.json  (7 real diffs)
+    - effects.foliage_color: vanilla=None | pack=3193611
+    - effects.grass_color: vanilla=None | pack=5884220
+    - temperature: vanilla=0.95 | pack=2
+    - spawners.axolotls: differs
+    - spawners.misc: differs
+    - spawners.water_ambient: differs
+    - spawners.water_creature: differs
+PACK_MODIFIED  birch_forest.json  (7 real diffs)
+    - effects.foliage_color: vanilla=None | pack=7055681
+    - effects.grass_color: vanilla=None | pack=8960871
+    - temperature: vanilla=0.6 | pack=2
+    - spawners.axolotls: differs
+    - spawners.misc: differs
+    - spawners.water_ambient: differs
+    - spawners.water_creature: differs
+PACK_MODIFIED  cherry_grove.json  (5 real diffs)
+    - temperature: vanilla=0.5 | pack=2
+    - spawners.axolotls: differs
+    - spawners.misc: differs
+    - spawners.water_ambient: differs
+    - spawners.water_creature: differs
+PACK_MODIFIED  dark_forest.json  (7 real diffs)
+    - effects.foliage_color: vanilla=None | pack=5877296
+    - effects.grass_color: vanilla=None | pack=5274162
+    - temperature: vanilla=0.7 | pack=2
+    - spawners.axolotls: differs
+    - spawners.misc: differs
+    - spawners.water_ambient: differs
+    - spawners.water_creature: differs
+IDENTICAL      deep_dark.json
+PACK_MODIFIED  desert.json  (4 real diffs)
+    - spawners.axolotls: differs
+    - spawners.misc: differs
+    - spawners.water_ambient: differs
+    - spawners.water_creature: differs
+PACK_MODIFIED  dripstone_caves.json  (5 real diffs)
+    - spawners.axolotls: differs
+    - spawners.creature: differs
+    - spawners.misc: differs
+    - spawners.water_ambient: differs
+    - spawners.water_creature: differs
+PACK_MODIFIED  eroded_badlands.json  (5 real diffs)
+    - creature_spawn_probability: vanilla=null | pack=0.03
+    - spawners.axolotls: differs
+    - spawners.misc: differs
+    - spawners.water_ambient: differs
+    - spawners.water_creature: differs
+PACK_MODIFIED  flower_forest.json  (7 real diffs)
+    - effects.foliage_color: vanilla=None | pack=5877296
+    - effects.grass_color: vanilla=None | pack=7979098
+    - temperature: vanilla=0.7 | pack=2
+    - spawners.axolotls: differs
+    - spawners.misc: differs
+    - spawners.water_ambient: differs
+    - spawners.water_creature: differs
+PACK_MODIFIED  forest.json  (7 real diffs)
+    - effects.foliage_color: vanilla=None | pack=5877296
+    - effects.grass_color: vanilla=None | pack=7979098
+    - temperature: vanilla=0.7 | pack=2
+    - spawners.axolotls: differs
+    - spawners.misc: differs
+    - spawners.water_ambient: differs
+    - spawners.water_creature: differs
+PACK_MODIFIED  frozen_river.json  (3 real diffs)
+    - spawners.axolotls: differs
+    - spawners.creature: differs
+    - spawners.misc: differs
+PACK_MODIFIED  jungle.json  (7 real diffs)
+    - effects.foliage_color: vanilla=None | pack=3193611
+    - effects.grass_color: vanilla=None | pack=5884220
+    - temperature: vanilla=0.95 | pack=2
+    - spawners.axolotls: differs
+    - spawners.misc: differs
+    - spawners.water_ambient: differs
+    - spawners.water_creature: differs
+PACK_MODIFIED  lush_caves.json  (3 real diffs)
+    - spawners.creature: differs
+    - spawners.misc: differs
+    - spawners.water_creature: differs
+PACK_MODIFIED  mangrove_swamp.json  (5 real diffs)
+    - effects.grass_color: vanilla=None | pack=5011004
+    - features: vanilla=[[], ["minecraft:lake_lava_underground", "minecraft:lake_lava_surface"], ["minecraft:amethyst_geode"], ["minecraft:fossi | pack=[[], ["minecraft:lake_lava_underground", "minecraft:lake_lava_surface"], ["minecraft:amethyst_geode"], ["minecraft:fossi
+    - spawners.axolotls: differs
+    - spawners.misc: differs
+    - spawners.water_creature: differs
+PACK_MODIFIED  meadow.json  (7 real diffs)
+    - effects.foliage_color: vanilla=None | pack=6531400
+    - effects.grass_color: vanilla=None | pack=8633197
+    - temperature: vanilla=0.5 | pack=2
+    - spawners.axolotls: differs
+    - spawners.misc: differs
+    - spawners.water_ambient: differs
+    - spawners.water_creature: differs
+PACK_CUSTOM    molten_peaks.json
+PACK_CUSTOM    molten_peaks_frozen.json
+PACK_CUSTOM    molten_peaks_mild.json
+PACK_MODIFIED  mushroom_fields.json  (6 real diffs)
+    - temperature: vanilla=0.9 | pack=2
+    - spawners.axolotls: differs
+    - spawners.misc: differs
+    - spawners.monster: differs
+    - spawners.water_ambient: differs
+    - spawners.water_creature: differs
+PACK_MODIFIED  old_growth_birch_forest.json  (7 real diffs)
+    - effects.foliage_color: vanilla=None | pack=7055681
+    - effects.grass_color: vanilla=None | pack=8960871
+    - temperature: vanilla=0.6 | pack=2
+    - spawners.axolotls: differs
+    - spawners.misc: differs
+    - spawners.water_ambient: differs
+    - spawners.water_creature: differs
+PACK_MODIFIED  old_growth_pine_taiga.json  (7 real diffs)
+    - effects.foliage_color: vanilla=None | pack=6858079
+    - effects.grass_color: vanilla=None | pack=8829055
+    - temperature: vanilla=0.3 | pack=2
+    - spawners.axolotls: differs
+    - spawners.misc: differs
+    - spawners.water_ambient: differs
+    - spawners.water_creature: differs
+PACK_MODIFIED  old_growth_spruce_taiga.json  (7 real diffs)
+    - effects.foliage_color: vanilla=None | pack=6857828
+    - effects.grass_color: vanilla=None | pack=8828803
+    - temperature: vanilla=0.25 | pack=2
+    - spawners.axolotls: differs
+    - spawners.misc: differs
+    - spawners.water_ambient: differs
+    - spawners.water_creature: differs
+PACK_MODIFIED  pale_garden.json  (6 real diffs)
+    - temperature: vanilla=0.7 | pack=2
+    - spawners.axolotls: differs
+    - spawners.creature: differs
+    - spawners.misc: differs
+    - spawners.water_ambient: differs
+    - spawners.water_creature: differs
+PACK_MODIFIED  plains.json  (7 real diffs)
+    - effects.foliage_color: vanilla=None | pack=7842607
+    - effects.grass_color: vanilla=None | pack=9551193
+    - temperature: vanilla=0.8 | pack=2
+    - spawners.axolotls: differs
+    - spawners.misc: differs
+    - spawners.water_ambient: differs
+    - spawners.water_creature: differs
+PACK_MODIFIED  river.json  (3 real diffs)
+    - spawners.axolotls: differs
+    - spawners.creature: differs
+    - spawners.misc: differs
+PACK_MODIFIED  savanna.json  (6 real diffs)
+    - effects.foliage_color: vanilla=None | pack=11445290
+    - effects.grass_color: vanilla=None | pack=12564309
+    - spawners.axolotls: differs
+    - spawners.misc: differs
+    - spawners.water_ambient: differs
+    - spawners.water_creature: differs
+PACK_MODIFIED  savanna_plateau.json  (6 real diffs)
+    - effects.foliage_color: vanilla=None | pack=11445290
+    - effects.grass_color: vanilla=None | pack=12564309
+    - spawners.axolotls: differs
+    - spawners.misc: differs
+    - spawners.water_ambient: differs
+    - spawners.water_creature: differs
+PACK_MODIFIED  sparse_jungle.json  (7 real diffs)
+    - effects.foliage_color: vanilla=None | pack=4110351
+    - effects.grass_color: vanilla=None | pack=6604607
+    - temperature: vanilla=0.95 | pack=2
+    - spawners.axolotls: differs
+    - spawners.misc: differs
+    - spawners.water_ambient: differs
+    - spawners.water_creature: differs
+PACK_MODIFIED  stony_peaks.json  (7 real diffs)
+    - downfall: vanilla=0.3 | pack=0
+    - temperature: vanilla=1.0 | pack=3
+    - spawners.axolotls: differs
+    - spawners.creature: differs
+    - spawners.misc: differs
+    - spawners.water_ambient: differs
+    - spawners.water_creature: differs
+PACK_MODIFIED  stony_shore.json  (5 real diffs)
+    - spawners.axolotls: differs
+    - spawners.creature: differs
+    - spawners.misc: differs
+    - spawners.water_ambient: differs
+    - spawners.water_creature: differs
+PACK_MODIFIED  sulfur_caves.json  (6 real diffs)
+    - spawners.axolotls: differs
+    - spawners.creature: differs
+    - spawners.misc: differs
+    - spawners.underground_water_creature: differs
+    - spawners.water_ambient: differs
+    - spawners.water_creature: differs
+PACK_MODIFIED  sunflower_plains.json  (7 real diffs)
+    - effects.foliage_color: vanilla=None | pack=#77AB2F
+    - effects.grass_color: vanilla=None | pack=9551193
+    - temperature: vanilla=0.8 | pack=2
+    - spawners.axolotls: differs
+    - spawners.misc: differs
+    - spawners.water_ambient: differs
+    - spawners.water_creature: differs
+PACK_MODIFIED  swamp.json  (7 real diffs)
+    - effects.grass_color: vanilla=None | pack=6975545
+    - features: vanilla=[[], ["minecraft:lake_lava_underground", "minecraft:lake_lava_surface"], ["minecraft:amethyst_geode"], ["minecraft:fossi | pack=[[], ["minecraft:lake_lava_underground", "minecraft:lake_lava_surface"], ["minecraft:amethyst_geode"], ["minecraft:fossi
+    - temperature: vanilla=0.8 | pack=2
+    - spawners.axolotls: differs
+    - spawners.misc: differs
+    - spawners.water_ambient: differs
+    - spawners.water_creature: differs
+PACK_MODIFIED  taiga.json  (7 real diffs)
+    - effects.foliage_color: vanilla=None | pack=6857828
+    - effects.grass_color: vanilla=None | pack=8828803
+    - temperature: vanilla=0.25 | pack=2
+    - spawners.axolotls: differs
+    - spawners.misc: differs
+    - spawners.water_ambient: differs
+    - spawners.water_creature: differs
+PACK_CUSTOM    underground.json
+PACK_CUSTOM    underground_deep.json
+PACK_MODIFIED  windswept_forest.json  (7 real diffs)
+    - effects.foliage_color: vanilla=None | pack=7185259
+    - effects.grass_color: vanilla=None | pack=9090697
+    - temperature: vanilla=0.2 | pack=2
+    - spawners.axolotls: differs
+    - spawners.misc: differs
+    - spawners.water_ambient: differs
+    - spawners.water_creature: differs
+PACK_MODIFIED  windswept_gravelly_hills.json  (7 real diffs)
+    - effects.foliage_color: vanilla=None | pack=7185259
+    - effects.grass_color: vanilla=None | pack=9090697
+    - temperature: vanilla=0.2 | pack=2
+    - spawners.axolotls: differs
+    - spawners.misc: differs
+    - spawners.water_ambient: differs
+    - spawners.water_creature: differs
+PACK_MODIFIED  windswept_hills.json  (7 real diffs)
+    - effects.foliage_color: vanilla=None | pack=7185259
+    - effects.grass_color: vanilla=None | pack=9090697
+    - temperature: vanilla=0.2 | pack=2
+    - spawners.axolotls: differs
+    - spawners.misc: differs
+    - spawners.water_ambient: differs
+    - spawners.water_creature: differs
+PACK_MODIFIED  windswept_savanna.json  (6 real diffs)
+    - effects.foliage_color: vanilla=None | pack=11445290
+    - effects.grass_color: vanilla=None | pack=12564309
+    - spawners.axolotls: differs
+    - spawners.misc: differs
+    - spawners.water_ambient: differs
+    - spawners.water_creature: differs
+PACK_MODIFIED  wooded_badlands.json  (6 real diffs)
+    - creature_spawn_probability: vanilla=null | pack=0.04
+    - effects.grass_color: vanilla=#90814d | pack=10387789
+    - spawners.axolotls: differs
+    - spawners.misc: differs
+    - spawners.water_ambient: differs
+    - spawners.water_creature: differs
+
+TOTAL overridden by pack: 42
+  identical to vanilla 26.3 : 1
+  modified by pack          : 36
+  pack-custom               : 5
+Vanilla 26.3 biomes not overridden (30):
+  basalt_deltas, beach, cold_ocean, crimson_forest, dappled_forest, deep_cold_ocean, deep_frozen_ocean, deep_lukewarm_ocean, deep_ocean, end_barrens, end_highlands, end_midlands, frozen_ocean, frozen_peaks, grove, ice_spikes, jagged_peaks, lukewarm_ocean, nether_wastes, ocean, small_end_islands, snowy_beach, snowy_plains, snowy_slopes, snowy_taiga, soul_sand_valley, the_end, the_void, warm_ocean, warped_forest

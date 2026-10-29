@@ -1,0 +1,213 @@
+{
+  "type": "minecraft:spline",
+  "spline": {
+    "coordinate": "minecraft:determiner/cave/1",
+    "points": [
+      {
+        "location": -2,
+        "derivative": 0,
+        "value": 1
+      },
+      {
+        "location": -1.9,
+        "derivative": 0,
+        "value": -1
+      },
+      {
+        "location": -1.8,
+        "derivative": 0,
+        "value": 1
+      },
+      {
+        "location": -1.7,
+        "derivative": 0,
+        "value": -1
+      },
+      {
+        "location": -1.6,
+        "derivative": 0,
+        "value": 1
+      },
+      {
+        "location": -1.5,
+        "derivative": 0,
+        "value": -1
+      },
+      {
+        "location": -1.4,
+        "derivative": 0,
+        "value": 1
+      },
+      {
+        "location": -1.3,
+        "derivative": 0,
+        "value": -1
+      },
+      {
+        "location": -1.2,
+        "derivative": 0,
+        "value": 1
+      },
+      {
+        "location": -1.1,
+        "derivative": 0,
+        "value": -1
+      },
+      {
+        "location": -1,
+        "derivative": 0,
+        "value": 1
+      },
+      {
+        "location": -0.9,
+        "derivative": 0,
+        "value": -1
+      },
+      {
+        "location": -0.8,
+        "derivative": 0,
+        "value": 1
+      },
+      {
+        "location": -0.7,
+        "derivative": 0,
+        "value": -1
+      },
+      {
+        "location": -0.6,
+        "derivative": 0,
+        "value": 1
+      },
+      {
+        "location": -0.5,
+        "derivative": 0,
+        "value": -1
+      },
+      {
+        "location": -0.4,
+        "derivative": 0,
+        "value": 1
+      },
+      {
+        "location": -0.3,
+        "derivative": 0,
+        "value": -1
+      },
+      {
+        "location": -0.2,
+        "derivative": 0,
+        "value": 1
+      },
+      {
+        "location": -0.1,
+        "derivative": 0,
+        "value": -1
+      },
+      {
+        "location": 0,
+        "derivative": 0,
+        "value": 1
+      },
+      {
+        "location": 0.1,
+        "derivative": 0,
+        "value": -1
+      },
+      {
+        "location": 0.2,
+        "derivative": 0,
+        "value": 1
+      },
+      {
+        "location": 0.3,
+        "derivative": 0,
+        "value": -1
+      },
+      {
+        "location": 0.4,
+        "derivative": 0,
+        "value": 1
+      },
+      {
+        "location": 0.5,
+        "derivative": 0,
+        "value": -1
+      },
+      {
+        "location": 0.6,
+        "derivative": 0,
+        "value": 1
+      },
+      {
+        "location": 0.7,
+        "derivative": 0,
+        "value": -1
+      },
+      {
+        "location": 0.8,
+        "derivative": 0,
+        "value": 1
+      },
+      {
+        "location": 0.9,
+        "derivative": 0,
+        "value": -1
+      },
+      {
+        "location": 1,
+        "derivative": 0,
+        "value": 1
+      },
+      {
+        "location": 1.1,
+        "derivative": 0,
+        "value": -1
+      },
+      {
+        "location": 1.2,
+        "derivative": 0,
+        "value": 1
+      },
+      {
+        "location": 1.3,
+        "derivative": 0,
+        "value": -1
+      },
+      {
+        "location": 1.4,
+        "derivative": 0,
+        "value": 1
+      },
+      {
+        "location": 1.5,
+        "derivative": 0,
+        "value": -1
+      },
+      {
+        "location": 1.6,
+        "derivative": 0,
+        "value": 1
+      },
+      {
+        "location": 1.7,
+        "derivative": 0,
+        "value": -1
+      },
+      {
+        "location": 1.8,
+        "derivative": 0,
+        "value": 1
+      },
+      {
+        "location": 1.9,
+        "derivative": 0,
+        "value": -1
+      },
+      {
+        "location": 2,
+        "derivative": 0,
+        "value": 1
+      }
+    ]
+  }
+}

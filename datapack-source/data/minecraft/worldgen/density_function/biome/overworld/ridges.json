@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:add",
+  "left": "minecraft:determiner/overworld/smart",
+  "right": {
+    "type": "minecraft:mul",
+    "left": {
+      "type": "minecraft:noise",
+      "noise": "minecraft:cave_layer",
+      "xz_scale": 20,
+      "y_scale": 0
+    },
+    "right": 0.1
+  }
+}

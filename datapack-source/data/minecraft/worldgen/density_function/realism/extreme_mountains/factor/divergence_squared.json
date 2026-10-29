@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:mul",
+  "left": {
+    "type": "minecraft:add",
+    "left": {
+      "type": "minecraft:square",
+      "input": "minecraft:realism/extreme_mountains/factor/derivative_x"
+    },
+    "right": {
+      "type": "minecraft:square",
+      "input": "minecraft:realism/extreme_mountains/factor/derivative_z"
+    }
+  },
+  "right": 5000
+}

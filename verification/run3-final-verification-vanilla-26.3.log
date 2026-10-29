@@ -1,0 +1,93 @@
+[driver 16:08:12] RUN3: fresh world, final port v1.0.0
+Starting net.minecraft.server.Main
+WARNING: A restricted method in java.lang.System has been called
+WARNING: java.lang.System::load has been called by com.sun.jna.Native in an unnamed module (file:/home/z/my-project/JJthunderToTheMaxPort/test-server/libraries/net/java/dev/jna/jna/5.17.0/jna-5.17.0.jar)
+WARNING: Use --enable-native-access=ALL-UNNAMED to avoid a warning for callers in this module
+WARNING: Restricted methods will be blocked in a future release unless native access is enabled
+WARNING: A terminally deprecated method in sun.misc.Unsafe has been called
+WARNING: sun.misc.Unsafe::objectFieldOffset has been called by org.joml.MemUtil$MemUtilUnsafe (file:/home/z/my-project/JJthunderToTheMaxPort/test-server/libraries/org/joml/joml/1.10.9/joml-1.10.9.jar)
+WARNING: Please consider reporting this to the maintainers of class org.joml.MemUtil$MemUtilUnsafe
+WARNING: sun.misc.Unsafe::objectFieldOffset will be removed in a future release
+[16:08:19] [ServerMain/INFO]: Environment: Environment[discoveryUrl=https://discovery.minecraftservices.com/minecraft/client, name=PROD]
+[16:08:20] [ServerMain/INFO]: Found new data pack file/jjthunder-26.3-port.zip, loading it automatically
+[16:08:21] [Worker-Main-1/INFO]: No existing world data, creating new world
+[16:08:23] [Worker-Main-1/INFO]: Loaded 1866 advancements
+[16:08:23] [Server thread/INFO]: Starting minecraft server version 26.3
+[16:08:23] [Server thread/INFO]: Loading properties
+[16:08:23] [Server thread/INFO]: Default game type: SURVIVAL
+[16:08:23] [Server thread/INFO]: Generating keypair
+[16:08:23] [Server thread/INFO]: Starting Minecraft server on *:25565
+[16:08:23] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[16:08:23] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[16:08:23] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[16:08:23] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[16:08:23] [Server thread/INFO]: Preparing level "world"
+[16:08:24] [Server thread/INFO]: Selecting global world spawn...
+[16:08:45] [Server thread/INFO]: Loading 0 persistent chunks...
+[16:08:45] [Server thread/INFO]: Preparing spawn area: 100%
+[16:08:45] [Server thread/INFO]: Time elapsed: 21269 ms
+[16:08:45] [Server thread/INFO]: Done (21.971s)! For help, type "help"
+[16:08:45] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[16:08:45] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[16:08:45] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[driver 16:08:46]   => [16:08:45] [Server thread/INFO]: Done (21.971s)! For help, type "help"
+[driver 16:08:46] $ datapack list
+[driver 16:08:46]   => [16:08:20] [ServerMain/INFO]: Found new data pack file/jjthunder-26.3-port.zip, loading it automatically
+[driver 16:08:46] $ forceload add -32 -32 32 32
+[16:08:46] [Server thread/INFO]: System chat: There are 2 data pack(s) enabled: [vanilla (built-in)], [file/jjthunder-26.3-port.zip (world)]
+[16:08:46] [Server thread/INFO]: System chat: There are no more data packs available
+[16:09:12] [Server thread/INFO]: System chat: Marked 25 chunks in minecraft:overworld from [-2, -2] to [2, 2] to be force loaded
+[16:09:12] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 25510ms or 510 ticks behind
+[driver 16:09:12]   => [16:09:12] [Server thread/INFO]: System chat: Marked 25 chunks in minecraft:overworld from [-2, -2] to [2, 2] to be force loaded
+[driver 16:09:12] $ locate biome minecraft:sulfur_caves
+[16:09:12] [Server thread/INFO]: System chat: The nearest minecraft:sulfur_caves is at [1328, 290, 368] (64 blocks away)
+[16:09:12] [Server thread/INFO]: Locating element minecraft:sulfur_caves took 37 ms
+[driver 16:09:14]   => [16:09:12] [Server thread/INFO]: System chat: The nearest minecraft:sulfur_caves is at [1328, 290, 368] (64 blocks away)
+[driver 16:09:14] $ locate biome minecraft:dappled_forest
+[16:09:43] [Server thread/INFO]: System chat: The nearest minecraft:dappled_forest is at [-1328, 674, -2288] (3769 blocks away)
+[16:09:43] [Server thread/INFO]: Locating element minecraft:dappled_forest took 28902 ms
+[16:09:44] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 16589ms or 331 ticks behind
+[driver 16:09:44]   => [16:09:43] [Server thread/INFO]: System chat: The nearest minecraft:dappled_forest is at [-1328, 674, -2288] (3769 blocks away)
+[driver 16:09:44] $ locate biome minecraft:molten_peaks
+[driver 16:11:44]   !! TIMEOUT (120s) waiting for locate minecraft:molten_peaks
+[16:12:15] [Server thread/INFO]: System chat: Could not find a biome of type "minecraft:molten_peaks" within a reasonable distance
+[16:12:16] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 137167ms or 2743 ticks behind
+[driver 16:12:16]   => [16:12:15] [Server thread/INFO]: System chat: Could not find a biome of type "minecraft:molten_peaks" within a reasonable distance
+[driver 16:12:16] $ locate biome minecraft:underground
+[16:12:16] [Server thread/INFO]: System chat: The nearest minecraft:underground is at [1328, 162, 368] (192 blocks away)
+[16:12:16] [Server thread/INFO]: Locating element minecraft:underground took 0 ms
+[driver 16:12:18]   => [16:12:16] [Server thread/INFO]: System chat: The nearest minecraft:underground is at [1328, 162, 368] (192 blocks away)
+[driver 16:12:18] $ locate biome minecraft:deep_dark
+[16:13:03] [Server thread/INFO]: System chat: The nearest minecraft:deep_dark is at [1808, 162, 3696] (3367 blocks away)
+[16:13:03] [Server thread/INFO]: Locating element minecraft:deep_dark took 44360 ms
+[16:13:03] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 32193ms or 643 ticks behind
+[driver 16:13:04]   => [16:13:03] [Server thread/INFO]: System chat: The nearest minecraft:deep_dark is at [1808, 162, 3696] (3367 blocks away)
+[driver 16:13:04] $ locate structure minecraft:mineshaft
+[16:13:04] [Server thread/INFO]: System chat: The nearest minecraft:mineshaft is at [1392, ~, 336] (71 blocks away)
+[16:13:04] [Server thread/INFO]: Locating element minecraft:mineshaft took 0 ms
+[driver 16:13:06]   => [16:13:04] [Server thread/INFO]: System chat: The nearest minecraft:mineshaft is at [1392, ~, 336] (71 blocks away)
+[driver 16:13:06] $ locate structure minecraft:ancient_city
+[16:13:07] [Server thread/INFO]: System chat: The nearest minecraft:ancient_city is at [14896, ~, 2464] (13728 blocks away)
+[16:13:07] [Server thread/INFO]: Locating element minecraft:ancient_city took 436 ms
+[driver 16:13:08]   => [16:13:07] [Server thread/INFO]: System chat: The nearest minecraft:ancient_city is at [14896, ~, 2464] (13728 blocks away)
+[driver 16:13:08] $ execute positioned 1328 290 368 in minecraft:overworld run locate biome minecraft:sulfur_caves
+[driver 16:13:08]   => [16:09:12] [Server thread/INFO]: System chat: The nearest minecraft:sulfur_caves is at [1328, 290, 368] (64 blocks away)
+[driver 16:13:08] ROUND-TRIP OK: biome at [1328,290,368] resolves back to [1328,290,368] (distance 0)
+[driver 16:13:08] $ forceload add 79 19 87 27
+[driver 16:13:08]   => [16:09:12] [Server thread/INFO]: System chat: Marked 25 chunks in minecraft:overworld from [-2, -2] to [2, 2] to be force loaded
+[driver 16:13:08] $ execute in minecraft:overworld run tp @p 6000 320 6000
+[16:13:08] [Server thread/INFO]: System chat: The nearest minecraft:sulfur_caves is at [1328, 290, 368] (0 blocks away)
+[16:13:08] [Server thread/INFO]: Locating element minecraft:sulfur_caves took 0 ms
+[16:13:13] [Server thread/INFO]: System chat: Marked 2 chunks in minecraft:overworld from [4, 1] to [5, 1] to be force loaded
+[16:13:13] [Server thread/INFO]: System chat: No entity was found
+[driver 16:13:14] $ locate biome minecraft:molten_peaks
+[driver 16:13:14]   => [16:12:15] [Server thread/INFO]: System chat: Could not find a biome of type "minecraft:molten_peaks" within a reasonable distance
+[driver 16:13:14] $ execute in minecraft:overworld run tp @p -6000 320 -6000
+[driver 16:13:20] $ locate biome minecraft:molten_peaks
+[driver 16:13:20]   => [16:12:15] [Server thread/INFO]: System chat: Could not find a biome of type "minecraft:molten_peaks" within a reasonable distance
+[driver 16:13:20] $ save-all
+[driver 16:14:20]   !! TIMEOUT (60s) waiting for save-all
+[driver 16:14:23] $ stop
+[16:15:54] [Server thread/INFO]: System chat: Could not find a biome of type "minecraft:molten_peaks" within a reasonable distance
+[16:15:54] [Server thread/INFO]: System chat: No entity was found
+[driver 16:17:23] server stopped

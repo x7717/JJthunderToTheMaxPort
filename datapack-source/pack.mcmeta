@@ -1,0 +1,12 @@
+{
+  "pack": {
+    "pack_format": 107,
+    "description": "JJThunder to the Max v0.9.0 - unofficial Minecraft 26.3 port",
+    "supported_formats": [
+      1,
+      999
+    ],
+    "min_format": 1,
+    "max_format": 999
+  }
+}

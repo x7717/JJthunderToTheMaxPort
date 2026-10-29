@@ -1,0 +1,49 @@
+{
+  "type": "minecraft:spline",
+  "spline": {
+    "coordinate": "minecraft:biome/overworld/continentalness",
+    "points": [
+      {
+        "location": 0.04,
+        "derivative": 0,
+        "value": {
+          "coordinate": "minecraft:biome/overworld/continentalness",
+          "points": [
+            {
+              "location": 0,
+              "derivative": 1,
+              "value": 0
+            }
+          ]
+        }
+      },
+      {
+        "location": 0.05,
+        "derivative": 0,
+        "value": {
+          "coordinate": {
+            "type": "minecraft:add",
+            "left": "minecraft:biome/overworld/continentalness",
+            "right": {
+              "type": "minecraft:mul",
+              "left": {
+                "type": "minecraft:noise",
+                "noise": "minecraft:cave_layer",
+                "xz_scale": 20,
+                "y_scale": 0
+              },
+              "right": 0.1
+            }
+          },
+          "points": [
+            {
+              "location": 0,
+              "derivative": 1,
+              "value": 0
+            }
+          ]
+        }
+      }
+    ]
+  }
+}

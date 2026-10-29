@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:add",
+  "left": {
+    "type": "minecraft:mul",
+    "left": {
+      "type": "minecraft:noise",
+      "noise": "minecraft:cave_layer",
+      "xz_scale": 0.25,
+      "y_scale": 0
+    },
+    "right": 0.2
+  },
+  "right": 0.4
+}

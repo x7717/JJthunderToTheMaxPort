@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:add",
+  "left": "minecraft:baseline/cave/small",
+  "right": {
+    "type": "minecraft:add",
+    "left": {
+      "type": "minecraft:mul",
+      "left": {
+        "type": "minecraft:noise",
+        "noise": "minecraft:cave_layer",
+        "xz_scale": 10,
+        "y_scale": 4
+      },
+      "right": 1.5
+    },
+    "right": {
+      "type": "minecraft:mul",
+      "left": {
+        "type": "minecraft:noise",
+        "noise": "minecraft:jagged",
+        "xz_scale": 1000,
+        "y_scale": 0
+      },
+      "right": 0.5
+    }
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "type": "minecraft:spline",
+  "spline": {
+    "coordinate": {
+      "type": "minecraft:add",
+      "left": "minecraft:determiner/overworld/1",
+      "right": "minecraft:determiner/overworld/3"
+    },
+    "points": [
+      {
+        "location": -0.4,
+        "derivative": 0,
+        "value": {
+          "coordinate": "minecraft:surface/unprocessed/unrivered/2",
+          "points": [
+            {
+              "location": 0,
+              "derivative": 1,
+              "value": 0
+            }
+          ]
+        }
+      },
+      {
+        "location": 0,
+        "derivative": 0,
+        "value": {
+          "coordinate": "minecraft:surface/unprocessed/unrivered/1",
+          "points": [
+            {
+              "location": 0,
+              "derivative": 1,
+              "value": 0
+            }
+          ]
+        }
+      }
+    ]
+  }
+}

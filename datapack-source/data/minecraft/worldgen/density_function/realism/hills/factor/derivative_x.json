@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:add",
+  "left": "minecraft:realism/hills/factor/original_x",
+  "right": {
+    "type": "minecraft:mul",
+    "left": "minecraft:realism/hills/factor/original",
+    "right": -1
+  }
+}

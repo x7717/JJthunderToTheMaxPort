@@ -1,0 +1,30 @@
+{
+  "feature": "minecraft:sculk_vein",
+  "placement": [
+    {
+      "type": "minecraft:count",
+      "count": {
+        "type": "minecraft:constant",
+        "value": 256
+      }
+    },
+    {
+      "type": "minecraft:in_square"
+    },
+    {
+      "type": "minecraft:height_range",
+      "height": {
+        "type": "minecraft:uniform",
+        "min_inclusive": {
+          "absolute": -64
+        },
+        "max_inclusive": {
+          "absolute": 720
+        }
+      }
+    },
+    {
+      "type": "minecraft:biome"
+    }
+  ]
+}

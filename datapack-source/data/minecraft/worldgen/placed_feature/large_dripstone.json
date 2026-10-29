@@ -1,0 +1,31 @@
+{
+  "feature": "minecraft:large_dripstone",
+  "placement": [
+    {
+      "type": "minecraft:count",
+      "count": {
+        "type": "minecraft:uniform",
+        "min_inclusive": 4,
+        "max_inclusive": 8
+      }
+    },
+    {
+      "type": "minecraft:in_square"
+    },
+    {
+      "type": "minecraft:height_range",
+      "height": {
+        "type": "minecraft:uniform",
+        "min_inclusive": {
+          "above_bottom": -64
+        },
+        "max_inclusive": {
+          "absolute": 2031
+        }
+      }
+    },
+    {
+      "type": "minecraft:biome"
+    }
+  ]
+}

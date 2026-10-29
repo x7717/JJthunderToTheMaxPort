@@ -1,0 +1,6 @@
+{
+  "type": "minecraft:noise",
+  "noise": "minecraft:cave_layer",
+  "xz_scale": 4,
+  "y_scale": 4
+}

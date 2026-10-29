@@ -1,0 +1,48 @@
+{
+  "type": "minecraft:spline",
+  "spline": {
+    "coordinate": "minecraft:new_surface/height/unprocessed/unrivered",
+    "points": [
+      {
+        "location": -1,
+        "derivative": 0,
+        "value": -2
+      },
+      {
+        "location": -0.885,
+        "derivative": 0,
+        "value": -0.19
+      },
+      {
+        "location": -0.875,
+        "derivative": 0,
+        "value": -0.11
+      },
+      {
+        "location": 0.01526717557,
+        "derivative": 0,
+        "value": 0.8
+      },
+      {
+        "location": 0.2061068702,
+        "derivative": 0,
+        "value": 1
+      },
+      {
+        "location": 0.3969465649,
+        "derivative": 0,
+        "value": 1.2
+      },
+      {
+        "location": 0.5877862595,
+        "derivative": 0,
+        "value": 1.4
+      },
+      {
+        "location": 1,
+        "derivative": 0,
+        "value": 2
+      }
+    ]
+  }
+}

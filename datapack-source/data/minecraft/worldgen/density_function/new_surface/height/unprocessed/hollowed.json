@@ -1,0 +1,61 @@
+{
+  "type": "minecraft:spline",
+  "spline": {
+    "coordinate": "minecraft:new_surface/height/unprocessed/rivered",
+    "points": [
+      {
+        "location": 0.6,
+        "derivative": 0,
+        "value": {
+          "coordinate": "minecraft:new_surface/height/unprocessed/rivered",
+          "points": [
+            {
+              "location": 0,
+              "derivative": 1,
+              "value": 0
+            }
+          ]
+        }
+      },
+      {
+        "location": 0.8,
+        "derivative": 0,
+        "value": {
+          "coordinate": {
+            "type": "minecraft:add",
+            "left": "minecraft:new_surface/height/unprocessed/rivered",
+            "right": {
+              "type": "minecraft:mul",
+              "left": "minecraft:new_surface/height/unprocessed/rivered",
+              "right": {
+                "type": "minecraft:spline",
+                "spline": {
+                  "coordinate": "minecraft:new_surface/height/unprocessed/rivered",
+                  "points": [
+                    {
+                      "location": 0.8,
+                      "derivative": 0,
+                      "value": 0
+                    },
+                    {
+                      "location": 2,
+                      "derivative": 0,
+                      "value": -1.5
+                    }
+                  ]
+                }
+              }
+            }
+          },
+          "points": [
+            {
+              "location": 0,
+              "derivative": 1,
+              "value": 0
+            }
+          ]
+        }
+      }
+    ]
+  }
+}

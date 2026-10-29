@@ -1,0 +1,80 @@
+{
+  "type": "minecraft:spline",
+  "spline": {
+    "coordinate": "minecraft:new_combination/interpolated",
+    "points": [
+      {
+        "location": 0.1,
+        "derivative": 0,
+        "value": {
+          "coordinate": {
+            "type": "minecraft:abs",
+            "input": "minecraft:determiner/overworld/river"
+          },
+          "points": [
+            {
+              "location": 0.015,
+              "derivative": 0,
+              "value": {
+                "coordinate": {
+                  "type": "minecraft:abs",
+                  "input": "minecraft:determiner/overworld/smart"
+                },
+                "points": [
+                  {
+                    "location": 0.57,
+                    "derivative": 0,
+                    "value": 1.5
+                  },
+                  {
+                    "location": 0.57,
+                    "derivative": 0,
+                    "value": {
+                      "coordinate": "minecraft:biome/overworld/ridges",
+                      "points": [
+                        {
+                          "location": -1,
+                          "derivative": 0,
+                          "value": -1
+                        },
+                        {
+                          "location": 1,
+                          "derivative": 0,
+                          "value": 1
+                        }
+                      ]
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "location": 0.015,
+              "derivative": 0,
+              "value": {
+                "coordinate": "minecraft:biome/overworld/ridges",
+                "points": [
+                  {
+                    "location": -1,
+                    "derivative": 0,
+                    "value": -1
+                  },
+                  {
+                    "location": 1,
+                    "derivative": 0,
+                    "value": 1
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      },
+      {
+        "location": 0.1,
+        "derivative": 0,
+        "value": -1.5
+      }
+    ]
+  }
+}

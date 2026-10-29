@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:add",
+  "left": "minecraft:surface/unprocessed/rivered/2",
+  "right": {
+    "type": "minecraft:mul",
+    "left": "minecraft:baseline/overworld/horizontal",
+    "right": -1
+  }
+}

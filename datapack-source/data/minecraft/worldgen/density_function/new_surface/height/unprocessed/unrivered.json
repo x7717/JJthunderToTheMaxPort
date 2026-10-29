@@ -1,0 +1,501 @@
+{
+  "type": "minecraft:spline",
+  "spline": {
+    "coordinate": {
+      "type": "minecraft:abs",
+      "input": "minecraft:determiner/overworld/river"
+    },
+    "points": [
+      {
+        "location": 0.05,
+        "derivative": 0,
+        "value": {
+          "coordinate": {
+            "type": "minecraft:abs",
+            "input": "minecraft:determiner/overworld/smart"
+          },
+          "points": [
+            {
+              "location": 0.5,
+              "derivative": 0,
+              "value": {
+                "coordinate": {
+                  "type": "minecraft:add",
+                  "left": "minecraft:offset/plains",
+                  "right": {
+                    "type": "minecraft:add",
+                    "left": "minecraft:factor/plains",
+                    "right": "minecraft:jagged/plains"
+                  }
+                },
+                "points": [
+                  {
+                    "location": 0,
+                    "derivative": 1,
+                    "value": 0
+                  }
+                ]
+              }
+            },
+            {
+              "location": 0.6,
+              "derivative": 0,
+              "value": {
+                "coordinate": {
+                  "type": "minecraft:add",
+                  "left": "minecraft:offset/ocean",
+                  "right": {
+                    "type": "minecraft:add",
+                    "left": "minecraft:factor/ocean",
+                    "right": "minecraft:jagged/ocean"
+                  }
+                },
+                "points": [
+                  {
+                    "location": 0,
+                    "derivative": 1,
+                    "value": 0
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      },
+      {
+        "location": 0.1,
+        "derivative": 0,
+        "value": {
+          "coordinate": {
+            "type": "minecraft:abs",
+            "input": "minecraft:determiner/overworld/smart"
+          },
+          "points": [
+            {
+              "location": 0.4,
+              "derivative": 0,
+              "value": {
+                "coordinate": "minecraft:realism/hills/slope/height",
+                "points": [
+                  {
+                    "location": 0,
+                    "derivative": 1,
+                    "value": 0
+                  }
+                ]
+              }
+            },
+            {
+              "location": 0.5,
+              "derivative": 0,
+              "value": {
+                "coordinate": {
+                  "type": "minecraft:add",
+                  "left": "minecraft:offset/plains",
+                  "right": {
+                    "type": "minecraft:add",
+                    "left": "minecraft:factor/plains",
+                    "right": "minecraft:jagged/plains"
+                  }
+                },
+                "points": [
+                  {
+                    "location": 0,
+                    "derivative": 1,
+                    "value": 0
+                  }
+                ]
+              }
+            },
+            {
+              "location": 0.6,
+              "derivative": 0,
+              "value": {
+                "coordinate": {
+                  "type": "minecraft:add",
+                  "left": "minecraft:offset/ocean",
+                  "right": {
+                    "type": "minecraft:add",
+                    "left": "minecraft:factor/ocean",
+                    "right": "minecraft:jagged/ocean"
+                  }
+                },
+                "points": [
+                  {
+                    "location": 0,
+                    "derivative": 1,
+                    "value": 0
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      },
+      {
+        "location": 0.15,
+        "derivative": 0,
+        "value": {
+          "coordinate": {
+            "type": "minecraft:abs",
+            "input": "minecraft:determiner/overworld/smart"
+          },
+          "points": [
+            {
+              "location": 0.4,
+              "derivative": 0,
+              "value": {
+                "coordinate": "minecraft:realism/hills/slope/height",
+                "points": [
+                  {
+                    "location": 0,
+                    "derivative": 1,
+                    "value": 0
+                  }
+                ]
+              }
+            },
+            {
+              "location": 0.5,
+              "derivative": 0,
+              "value": {
+                "coordinate": {
+                  "type": "minecraft:add",
+                  "left": "minecraft:offset/plains",
+                  "right": {
+                    "type": "minecraft:add",
+                    "left": "minecraft:factor/plains",
+                    "right": "minecraft:jagged/plains"
+                  }
+                },
+                "points": [
+                  {
+                    "location": 0,
+                    "derivative": 1,
+                    "value": 0
+                  }
+                ]
+              }
+            },
+            {
+              "location": 0.6,
+              "derivative": 0,
+              "value": {
+                "coordinate": {
+                  "type": "minecraft:add",
+                  "left": "minecraft:offset/ocean",
+                  "right": {
+                    "type": "minecraft:add",
+                    "left": "minecraft:factor/ocean",
+                    "right": "minecraft:jagged/ocean"
+                  }
+                },
+                "points": [
+                  {
+                    "location": 0,
+                    "derivative": 1,
+                    "value": 0
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      },
+      {
+        "location": 0.2,
+        "derivative": 0,
+        "value": {
+          "coordinate": {
+            "type": "minecraft:abs",
+            "input": "minecraft:determiner/overworld/smart"
+          },
+          "points": [
+            {
+              "location": 0.3,
+              "derivative": 0,
+              "value": {
+                "coordinate": "minecraft:realism/extreme_hills/slope/height",
+                "points": [
+                  {
+                    "location": 0,
+                    "derivative": 1,
+                    "value": 0
+                  }
+                ]
+              }
+            },
+            {
+              "location": 0.4,
+              "derivative": 0,
+              "value": {
+                "coordinate": "minecraft:realism/hills/slope/height",
+                "points": [
+                  {
+                    "location": 0,
+                    "derivative": 1,
+                    "value": 0
+                  }
+                ]
+              }
+            },
+            {
+              "location": 0.5,
+              "derivative": 0,
+              "value": {
+                "coordinate": {
+                  "type": "minecraft:add",
+                  "left": "minecraft:offset/plains",
+                  "right": {
+                    "type": "minecraft:add",
+                    "left": "minecraft:factor/plains",
+                    "right": "minecraft:jagged/plains"
+                  }
+                },
+                "points": [
+                  {
+                    "location": 0,
+                    "derivative": 1,
+                    "value": 0
+                  }
+                ]
+              }
+            },
+            {
+              "location": 0.6,
+              "derivative": 0,
+              "value": {
+                "coordinate": {
+                  "type": "minecraft:add",
+                  "left": "minecraft:offset/ocean",
+                  "right": {
+                    "type": "minecraft:add",
+                    "left": "minecraft:factor/ocean",
+                    "right": "minecraft:jagged/ocean"
+                  }
+                },
+                "points": [
+                  {
+                    "location": 0,
+                    "derivative": 1,
+                    "value": 0
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      },
+      {
+        "location": 0.25,
+        "derivative": 0,
+        "value": {
+          "coordinate": {
+            "type": "minecraft:abs",
+            "input": "minecraft:determiner/overworld/smart"
+          },
+          "points": [
+            {
+              "location": 0.2,
+              "derivative": 0,
+              "value": {
+                "coordinate": "realism/mountains/slope/height",
+                "points": [
+                  {
+                    "location": 0,
+                    "derivative": 1,
+                    "value": 0
+                  }
+                ]
+              }
+            },
+            {
+              "location": 0.3,
+              "derivative": 0,
+              "value": {
+                "coordinate": "minecraft:realism/extreme_hills/slope/height",
+                "points": [
+                  {
+                    "location": 0,
+                    "derivative": 1,
+                    "value": 0
+                  }
+                ]
+              }
+            },
+            {
+              "location": 0.4,
+              "derivative": 0,
+              "value": {
+                "coordinate": "minecraft:realism/hills/slope/height",
+                "points": [
+                  {
+                    "location": 0,
+                    "derivative": 1,
+                    "value": 0
+                  }
+                ]
+              }
+            },
+            {
+              "location": 0.5,
+              "derivative": 0,
+              "value": {
+                "coordinate": {
+                  "type": "minecraft:add",
+                  "left": "minecraft:offset/plains",
+                  "right": {
+                    "type": "minecraft:add",
+                    "left": "minecraft:factor/plains",
+                    "right": "minecraft:jagged/plains"
+                  }
+                },
+                "points": [
+                  {
+                    "location": 0,
+                    "derivative": 1,
+                    "value": 0
+                  }
+                ]
+              }
+            },
+            {
+              "location": 0.6,
+              "derivative": 0,
+              "value": {
+                "coordinate": {
+                  "type": "minecraft:add",
+                  "left": "minecraft:offset/ocean",
+                  "right": {
+                    "type": "minecraft:add",
+                    "left": "minecraft:factor/ocean",
+                    "right": "minecraft:jagged/ocean"
+                  }
+                },
+                "points": [
+                  {
+                    "location": 0,
+                    "derivative": 1,
+                    "value": 0
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      },
+      {
+        "location": 0.3,
+        "derivative": 0,
+        "value": {
+          "coordinate": {
+            "type": "minecraft:abs",
+            "input": "minecraft:determiner/overworld/smart"
+          },
+          "points": [
+            {
+              "location": 0.1,
+              "derivative": 0,
+              "value": {
+                "coordinate": "minecraft:realism/extreme_mountains/slope/height",
+                "points": [
+                  {
+                    "location": 0,
+                    "derivative": 1,
+                    "value": 0
+                  }
+                ]
+              }
+            },
+            {
+              "location": 0.2,
+              "derivative": 0,
+              "value": {
+                "coordinate": "realism/mountains/slope/height",
+                "points": [
+                  {
+                    "location": 0,
+                    "derivative": 1,
+                    "value": 0
+                  }
+                ]
+              }
+            },
+            {
+              "location": 0.3,
+              "derivative": 0,
+              "value": {
+                "coordinate": "minecraft:realism/extreme_hills/slope/height",
+                "points": [
+                  {
+                    "location": 0,
+                    "derivative": 1,
+                    "value": 0
+                  }
+                ]
+              }
+            },
+            {
+              "location": 0.4,
+              "derivative": 0,
+              "value": {
+                "coordinate": "minecraft:realism/hills/slope/height",
+                "points": [
+                  {
+                    "location": 0,
+                    "derivative": 1,
+                    "value": 0
+                  }
+                ]
+              }
+            },
+            {
+              "location": 0.5,
+              "derivative": 0,
+              "value": {
+                "coordinate": {
+                  "type": "minecraft:add",
+                  "left": "minecraft:offset/plains",
+                  "right": {
+                    "type": "minecraft:add",
+                    "left": "minecraft:factor/plains",
+                    "right": "minecraft:jagged/plains"
+                  }
+                },
+                "points": [
+                  {
+                    "location": 0,
+                    "derivative": 1,
+                    "value": 0
+                  }
+                ]
+              }
+            },
+            {
+              "location": 0.6,
+              "derivative": 0,
+              "value": {
+                "coordinate": {
+                  "type": "minecraft:add",
+                  "left": "minecraft:offset/ocean",
+                  "right": {
+                    "type": "minecraft:add",
+                    "left": "minecraft:factor/ocean",
+                    "right": "minecraft:jagged/ocean"
+                  }
+                },
+                "points": [
+                  {
+                    "location": 0,
+                    "derivative": 1,
+                    "value": 0
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      }
+    ]
+  }
+}

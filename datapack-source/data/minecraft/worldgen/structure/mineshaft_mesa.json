@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:mineshaft",
+  "biomes": [
+    "minecraft:underground",
+    "minecraft:badlands",
+    "minecraft:eroded_badlands",
+    "minecraft:wooded_badlands"
+  ],
+  "step": "underground_structures",
+  "spawn_overrides": {},
+  "mineshaft_type": "mesa"
+}

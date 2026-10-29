@@ -1,0 +1,245 @@
+{
+  "type": "minecraft:spline",
+  "spline": {
+    "coordinate": "minecraft:new_surface/combined/processed",
+    "points": [
+      {
+        "location": 0.02,
+        "derivative": 0,
+        "value": {
+          "coordinate": "minecraft:new_combination/unfixed_2",
+          "points": [
+            {
+              "location": 0,
+              "derivative": 1,
+              "value": 0
+            }
+          ]
+        }
+      },
+      {
+        "location": 0.05,
+        "derivative": 0,
+        "value": {
+          "coordinate": "minecraft:caves/barrier/1",
+          "points": [
+            {
+              "location": -1,
+              "derivative": 0,
+              "value": {
+                "coordinate": "minecraft:new_surface/combined/processed_base",
+                "points": [
+                  {
+                    "location": 0.1,
+                    "derivative": 0,
+                    "value": {
+                      "coordinate": "minecraft:caves/barrier/2",
+                      "points": [
+                        {
+                          "location": 0,
+                          "derivative": 0,
+                          "value": 0.1
+                        },
+                        {
+                          "location": 0.5,
+                          "derivative": 0,
+                          "value": {
+                            "coordinate": "minecraft:caves/old/small",
+                            "points": [
+                              {
+                                "location": 0,
+                                "derivative": 1,
+                                "value": 0
+                              }
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "location": 0.35,
+                    "derivative": 0,
+                    "value": {
+                      "coordinate": "minecraft:caves/barrier/2",
+                      "points": [
+                        {
+                          "location": 0,
+                          "derivative": 0,
+                          "value": 0.1
+                        },
+                        {
+                          "location": 0.5,
+                          "derivative": 0,
+                          "value": {
+                            "coordinate": "minecraft:caves/old/medium",
+                            "points": [
+                              {
+                                "location": 0,
+                                "derivative": 1,
+                                "value": 0
+                              }
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "location": 0.7,
+                    "derivative": 0,
+                    "value": {
+                      "coordinate": "minecraft:caves/barrier/2",
+                      "points": [
+                        {
+                          "location": 0,
+                          "derivative": 0,
+                          "value": 0.1
+                        },
+                        {
+                          "location": 0.5,
+                          "derivative": 0,
+                          "value": {
+                            "coordinate": "minecraft:caves/old/large",
+                            "points": [
+                              {
+                                "location": 0,
+                                "derivative": 1,
+                                "value": 0
+                              }
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "location": 1,
+                    "derivative": 0,
+                    "value": {
+                      "coordinate": "minecraft:caves/underlands/combined",
+                      "points": [
+                        {
+                          "location": 0,
+                          "derivative": 1,
+                          "value": 0
+                        }
+                      ]
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "location": 1,
+              "derivative": 0,
+              "value": {
+                "coordinate": "minecraft:new_surface/combined/processed_base",
+                "points": [
+                  {
+                    "location": 0.1,
+                    "derivative": 0,
+                    "value": {
+                      "coordinate": "minecraft:caves/barrier/2",
+                      "points": [
+                        {
+                          "location": 0,
+                          "derivative": 0,
+                          "value": 0.1
+                        },
+                        {
+                          "location": 0.5,
+                          "derivative": 0,
+                          "value": {
+                            "coordinate": "minecraft:caves/new/small",
+                            "points": [
+                              {
+                                "location": 0,
+                                "derivative": 1,
+                                "value": 0
+                              }
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "location": 0.35,
+                    "derivative": 0,
+                    "value": {
+                      "coordinate": "minecraft:caves/barrier/2",
+                      "points": [
+                        {
+                          "location": 0,
+                          "derivative": 0,
+                          "value": 0.1
+                        },
+                        {
+                          "location": 0.5,
+                          "derivative": 0,
+                          "value": {
+                            "coordinate": "minecraft:caves/new/medium",
+                            "points": [
+                              {
+                                "location": 0,
+                                "derivative": 1,
+                                "value": 0
+                              }
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "location": 0.7,
+                    "derivative": 0,
+                    "value": {
+                      "coordinate": "minecraft:caves/barrier/2",
+                      "points": [
+                        {
+                          "location": 0,
+                          "derivative": 0,
+                          "value": 0.1
+                        },
+                        {
+                          "location": 0.5,
+                          "derivative": 0,
+                          "value": {
+                            "coordinate": "minecraft:caves/new/large",
+                            "points": [
+                              {
+                                "location": 0,
+                                "derivative": 1,
+                                "value": 0
+                              }
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "location": 1,
+                    "derivative": 0,
+                    "value": {
+                      "coordinate": "minecraft:caves/underlands/combined",
+                      "points": [
+                        {
+                          "location": 0,
+                          "derivative": 1,
+                          "value": 0
+                        }
+                      ]
+                    }
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      }
+    ]
+  }
+}

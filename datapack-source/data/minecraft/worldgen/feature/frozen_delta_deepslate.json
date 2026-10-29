@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:delta_feature",
+  "contents": "minecraft:ice",
+  "rim": "minecraft:cobbled_deepslate",
+  "size": {
+    "type": "minecraft:uniform",
+    "min_inclusive": 3,
+    "max_inclusive": 7
+  },
+  "rim_size": {
+    "type": "minecraft:uniform",
+    "min_inclusive": 1,
+    "max_inclusive": 2
+  }
+}

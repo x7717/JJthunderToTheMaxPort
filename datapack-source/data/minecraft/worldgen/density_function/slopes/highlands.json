@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:add",
+  "left": {
+    "type": "minecraft:add",
+    "left": "minecraft:baseline/overworld/horizontal",
+    "right": "minecraft:offset/highlands"
+  },
+  "right": {
+    "type": "minecraft:add",
+    "left": "minecraft:factor/highlands",
+    "right": "minecraft:jagged/highlands"
+  }
+}

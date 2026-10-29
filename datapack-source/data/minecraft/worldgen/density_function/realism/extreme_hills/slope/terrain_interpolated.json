@@ -1,0 +1,74 @@
+{
+  "type": "minecraft:spline",
+  "spline": {
+    "coordinate": "minecraft:realism/extreme_hills/slope/terrain",
+    "points": [
+      {
+        "location": -0.02,
+        "derivative": 0,
+        "value": {
+          "coordinate": "minecraft:realism/extreme_hills/slope/terrain",
+          "points": [
+            {
+              "location": 0,
+              "derivative": 1,
+              "value": 0
+            }
+          ]
+        }
+      },
+      {
+        "location": -0.015,
+        "derivative": 0,
+        "value": {
+          "coordinate": {
+            "type": "minecraft:interpolated",
+            "cell_size_xz": 4,
+            "cell_size_y": 4,
+            "input": "minecraft:realism/extreme_hills/slope/terrain"
+          },
+          "points": [
+            {
+              "location": 0,
+              "derivative": 1,
+              "value": 0
+            }
+          ]
+        }
+      },
+      {
+        "location": 0.015,
+        "derivative": 0,
+        "value": {
+          "coordinate": {
+            "type": "minecraft:interpolated",
+            "cell_size_xz": 4,
+            "cell_size_y": 4,
+            "input": "minecraft:realism/extreme_hills/slope/terrain"
+          },
+          "points": [
+            {
+              "location": 0,
+              "derivative": 1,
+              "value": 0
+            }
+          ]
+        }
+      },
+      {
+        "location": 0.02,
+        "derivative": 0,
+        "value": {
+          "coordinate": "minecraft:realism/extreme_hills/slope/terrain",
+          "points": [
+            {
+              "location": 0,
+              "derivative": 1,
+              "value": 0
+            }
+          ]
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:add",
+  "left": {
+    "type": "minecraft:gradient",
+    "axis": "y",
+    "from_coordinate": -256,
+    "to_coordinate": 1016,
+    "from_value": 1,
+    "to_value": -1
+  },
+  "right": {
+    "type": "minecraft:mul",
+    "left": "minecraft:new_surface/height/processed_base",
+    "right": -1.6
+  }
+}

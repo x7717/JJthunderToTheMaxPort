@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:add",
+  "left": "minecraft:realism/mountains/factor/original_z",
+  "right": {
+    "type": "minecraft:mul",
+    "left": "minecraft:realism/mountains/factor/original",
+    "right": -1
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:spline",
+  "spline": {
+    "coordinate": "minecraft:new_surface/combined/processed",
+    "points": [
+      {
+        "location": 0.01,
+        "derivative": 0,
+        "value": 1
+      },
+      {
+        "location": 0.02,
+        "derivative": 0,
+        "value": -1
+      }
+    ]
+  }
+}

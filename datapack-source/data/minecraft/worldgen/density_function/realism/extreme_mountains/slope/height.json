@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:add",
+  "left": {
+    "type": "minecraft:add",
+    "left": 0,
+    "right": "minecraft:offset/extreme_mountains"
+  },
+  "right": {
+    "type": "minecraft:add",
+    "left": "minecraft:realism/extreme_mountains/factor/eroded_noise_tuned",
+    "right": "minecraft:realism/extreme_mountains/jagged/adjusted"
+  }
+}

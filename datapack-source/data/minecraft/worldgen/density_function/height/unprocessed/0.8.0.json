@@ -1,0 +1,44 @@
+{
+  "type": "minecraft:spline",
+  "spline": {
+    "coordinate": {
+      "type": "minecraft:abs",
+      "input": "minecraft:determiner/overworld/smart"
+    },
+    "points": [
+      {
+        "location": 0.455,
+        "derivative": 0,
+        "value": {
+          "coordinate": "minecraft:new_surface/height/unprocessed/unrivered",
+          "points": [
+            {
+              "location": 0,
+              "derivative": 1,
+              "value": 0
+            }
+          ]
+        }
+      },
+      {
+        "location": 0.475,
+        "derivative": 0,
+        "value": -0.885
+      },
+      {
+        "location": 0.495,
+        "derivative": 0,
+        "value": {
+          "coordinate": "minecraft:new_surface/height/unprocessed/unrivered",
+          "points": [
+            {
+              "location": 0,
+              "derivative": 1,
+              "value": 0
+            }
+          ]
+        }
+      }
+    ]
+  }
+}

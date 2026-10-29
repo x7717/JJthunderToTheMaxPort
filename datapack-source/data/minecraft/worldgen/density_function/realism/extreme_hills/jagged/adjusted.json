@@ -1,0 +1,36 @@
+{
+  "type": "minecraft:spline",
+  "spline": {
+    "coordinate": "minecraft:realism/extreme_hills/factor/original",
+    "points": [
+      {
+        "location": -0.3,
+        "derivative": 0,
+        "value": {
+          "coordinate": "minecraft:realism/extreme_hills/jagged/original",
+          "points": [
+            {
+              "location": 0,
+              "derivative": 0.03,
+              "value": 0
+            }
+          ]
+        }
+      },
+      {
+        "location": 0.3,
+        "derivative": 0,
+        "value": {
+          "coordinate": "minecraft:realism/extreme_hills/jagged/original",
+          "points": [
+            {
+              "location": 0,
+              "derivative": 0.06,
+              "value": 0
+            }
+          ]
+        }
+      }
+    ]
+  }
+}

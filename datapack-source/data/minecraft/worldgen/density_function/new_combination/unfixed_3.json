@@ -1,0 +1,36 @@
+{
+  "type": "minecraft:spline",
+  "spline": {
+    "coordinate": "minecraft:new_surface/combined/unprocessed_base",
+    "points": [
+      {
+        "location": 0.7,
+        "derivative": 0,
+        "value": {
+          "coordinate": "minecraft:new_surface/combined/processed",
+          "points": [
+            {
+              "location": 0,
+              "derivative": 1,
+              "value": 0
+            }
+          ]
+        }
+      },
+      {
+        "location": 1.5,
+        "derivative": 0,
+        "value": {
+          "coordinate": "minecraft:caves/underlands/combined",
+          "points": [
+            {
+              "location": 0,
+              "derivative": 1,
+              "value": 0
+            }
+          ]
+        }
+      }
+    ]
+  }
+}

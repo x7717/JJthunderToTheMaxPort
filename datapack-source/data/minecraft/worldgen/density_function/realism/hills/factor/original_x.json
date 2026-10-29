@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:noise",
+  "noise": "minecraft:gravel",
+  "shift_x": 1,
+  "shift_z": 0,
+  "xz_scale": 0.2,
+  "y_scale": 0
+}

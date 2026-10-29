@@ -1,0 +1,62 @@
+{
+  "feature": "minecraft:pointed_dripstone",
+  "placement": [
+    {
+      "type": "minecraft:count",
+      "count": {
+        "type": "minecraft:constant",
+        "value": 256
+      }
+    },
+    {
+      "type": "minecraft:in_square"
+    },
+    {
+      "type": "minecraft:height_range",
+      "height": {
+        "type": "minecraft:uniform",
+        "min_inclusive": {
+          "above_bottom": -64
+        },
+        "max_inclusive": {
+          "absolute": 2031
+        }
+      }
+    },
+    {
+      "type": "minecraft:count",
+      "count": {
+        "type": "minecraft:uniform",
+        "min_inclusive": 1,
+        "max_inclusive": 5
+      }
+    },
+    {
+      "type": "minecraft:offset",
+      "x": {
+        "type": "minecraft:clamped_normal",
+        "min_inclusive": -10,
+        "max_inclusive": 10,
+        "mean": 0,
+        "deviation": 3
+      },
+      "y": {
+        "type": "minecraft:clamped_normal",
+        "min_inclusive": -2,
+        "max_inclusive": 2,
+        "mean": 0,
+        "deviation": 0.6
+      },
+      "z": {
+        "type": "minecraft:clamped_normal",
+        "min_inclusive": -10,
+        "max_inclusive": 10,
+        "mean": 0,
+        "deviation": 3
+      }
+    },
+    {
+      "type": "minecraft:biome"
+    }
+  ]
+}

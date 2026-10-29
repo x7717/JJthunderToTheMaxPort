@@ -1,0 +1,15 @@
+name: JJVerify
+version: 1.0.0
+main: dev.jjthunder.port.JJVerifyPlugin
+api-version: '26.3'
+description: Verifies the JJThunder To The Max 26.3 port against a bundled manifest
+author: JJthunderToTheMaxPort contributors
+commands:
+  jjverify:
+    description: Verify the ported JJThunder worldgen (biomes, structures, world bounds, probes)
+    usage: /jjverify
+    permission: jjverify.use
+permissions:
+  jjverify.use:
+    description: Allows running the JJVerify check
+    default: op

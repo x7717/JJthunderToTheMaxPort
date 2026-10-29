@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:add",
+  "left": {
+    "type": "minecraft:add",
+    "left": "minecraft:baseline/overworld/horizontal",
+    "right": "minecraft:offset/extreme_hills"
+  },
+  "right": {
+    "type": "minecraft:add",
+    "left": "minecraft:factor/extreme_hills",
+    "right": "minecraft:jagged/extreme_hills"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:add",
+  "left": {
+    "type": "minecraft:mul",
+    "left": {
+      "type": "minecraft:noise",
+      "noise": "minecraft:jagged",
+      "xz_scale": 1000,
+      "y_scale": 100
+    },
+    "right": 0.1
+  },
+  "right": 0
+}

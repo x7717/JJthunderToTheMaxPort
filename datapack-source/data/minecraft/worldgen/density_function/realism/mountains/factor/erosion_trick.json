@@ -1,0 +1,97 @@
+{
+  "type": "minecraft:spline",
+  "spline": {
+    "coordinate": {
+      "type": "minecraft:mul",
+      "left": "minecraft:realism/mountains/factor/divergence_squared",
+      "right": 0.2
+    },
+    "points": [
+      {
+        "location": 0,
+        "derivative": 0,
+        "value": 1
+      },
+      {
+        "location": 0.05,
+        "derivative": 0,
+        "value": 0.9523809524
+      },
+      {
+        "location": 0.1,
+        "derivative": 0,
+        "value": 0.909090909
+      },
+      {
+        "location": 0.2,
+        "derivative": 0,
+        "value": 0.8333333333
+      },
+      {
+        "location": 0.3,
+        "derivative": 0,
+        "value": 0.7692307692
+      },
+      {
+        "location": 0.4,
+        "derivative": 0,
+        "value": 0.7142857143
+      },
+      {
+        "location": 0.5,
+        "derivative": 0,
+        "value": 0.666666666666666
+      },
+      {
+        "location": 0.6,
+        "derivative": 0,
+        "value": 0.625
+      },
+      {
+        "location": 0.7,
+        "derivative": 0,
+        "value": 0.5882352941
+      },
+      {
+        "location": 0.8,
+        "derivative": 0,
+        "value": 0.5555555555
+      },
+      {
+        "location": 0.9,
+        "derivative": 0,
+        "value": 0.5263157895
+      },
+      {
+        "location": 1,
+        "derivative": 0,
+        "value": 0.5
+      },
+      {
+        "location": 1.1,
+        "derivative": 0,
+        "value": 0.4761904762
+      },
+      {
+        "location": 1.2,
+        "derivative": 0,
+        "value": 0.4545454545
+      },
+      {
+        "location": 1.3,
+        "derivative": 0,
+        "value": 0.4347826087
+      },
+      {
+        "location": 1.4,
+        "derivative": 0,
+        "value": 0.416666666666
+      },
+      {
+        "location": 1.5,
+        "derivative": 0,
+        "value": 0.4
+      }
+    ]
+  }
+}
